@@ -38,3 +38,15 @@ Admin candidate management-
 /candidates: POST- Create a new candidate.
 /candidates:candidateId: PUT- Update an existing candidate.
 /candidates/:candidateId: DELETE- Delete a candidate from the the list.
+ 
+
+ // schema
+    "name":"Ash Mehta",
+    "age":24,
+    "mobile":"9999595555",
+    "email":"Ashh@abc.com",
+    "address":"123 rajendra ghaziabad",
+    "aadharCardNumber":101210131019,
+    "password": "12345",
+    "role":"voter",
+    "isVoted": true
